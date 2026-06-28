@@ -20,16 +20,16 @@
 
     <!-- Sidebar -->
     <aside class="sidebar" id="sidebar">
-        <div style="padding: 32px 24px 24px; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.06);">
+        <div style="padding: 32px 24px 24px; text-align: center; border-bottom: 1px solid var(--border);">
             <div class="profile-img-wrapper">
                 <img src="imgs/profile.jpeg" alt="Rashad Mansour">
                 <div class="status-dot"></div>
             </div>
-            <h2 style="margin-top: 16px; font-size: 18px; font-weight: 700; color: #fafafa;">Rashad Mansour</h2>
+            <h2 style="margin-top: 16px; font-size: 18px; font-weight: 700; color: var(--text-primary);">Rashad Mansour</h2>
             <p style="font-size: 13px; color: var(--accent); font-weight: 500; margin-top: 4px;">Senior Graphic Designer</p>
             <div style="display: flex; gap: 8px; justify-content: center; margin-top: 16px;">
                 <a href="https://www.behance.net/r1mansour8a9b3" target="_blank" class="social-link"><iconify-icon icon="simple-icons:behance" width="18"></iconify-icon></a>
-                <a href="#" class="social-link"><iconify-icon icon="lucide:mail" width="16"></iconify-icon></a>
+                <a href="mailto:r1mansour89@gmail.com" class="social-link"><iconify-icon icon="lucide:mail" width="16"></iconify-icon></a>
             </div>
         </div>
         <nav style="flex: 1; padding: 16px 0; overflow-y: auto;">
@@ -40,11 +40,7 @@
             <a href="#projects" class="nav-link" data-section="projects"><iconify-icon icon="lucide:folder-open"></iconify-icon> Projects</a>
             <a href="#contact" class="nav-link" data-section="contact"><iconify-icon icon="lucide:send"></iconify-icon> Contact</a>
         </nav>
-        <div style="padding: 16px 24px 24px; border-top: 1px solid rgba(255,255,255,0.06);">
-            <a href="#contact" class="btn-primary" style="width: 100%; justify-content: center; font-size: 13px; padding: 12px 20px;">
-                <iconify-icon icon="lucide:download" width="16"></iconify-icon> Download CV
-            </a>
-        </div>
+       
     </aside>
 
     <!-- Main -->
@@ -56,13 +52,13 @@
             <div class="floating-shape" style="width: 300px; height: 300px; bottom: -80px; left: 5%;"></div>
             <div style="max-width: 750px;">
                 <div class="reveal"><div class="section-label">Welcome to my portfolio</div></div>
-                <h1 class="reveal d1" style="font-family: 'Playfair Display', serif; font-size: 58px; font-weight: 700; color: #fafafa; line-height: 1.1; margin-bottom: 8px;">
+                <h1 class="reveal d1" style="font-family: 'Playfair Display', serif; font-size: 58px; font-weight: 700; color: var(--text-primary); line-height: 1.1; margin-bottom: 8px;">
                     Hi, I'm<br><span class="gradient-text">Rashad Mansour</span>
                 </h1>
-                <div class="reveal d2" style="font-size: 22px; color: #a3a3a3; font-weight: 300; margin-bottom: 24px;">
+                <div class="reveal d2" style="font-size: 22px; color: var(--text-secondary); font-weight: 300; margin-bottom: 24px;">
                     <span id="typed-text"></span><span class="typing-cursor"></span>
                 </div>
-                <p class="reveal d3" style="font-size: 16px; color: #737373; line-height: 1.8; margin-bottom: 36px;">
+                <p class="reveal d3" style="font-size: 16px; color: var(--text-muted); line-height: 1.8; margin-bottom: 36px;">
                     Senior Graphic Designer with over a decade of experience crafting compelling visual identities, brand collateral, and digital designs. Passionate about transforming ideas into powerful visual stories.
                 </p>
                 <div class="reveal d4" style="display: flex; gap: 14px; flex-wrap: wrap;">
@@ -70,23 +66,22 @@
                     <a href="#contact" class="btn-outline"><iconify-icon icon="lucide:message-circle" width="16"></iconify-icon> Get in Touch</a>
                 </div>
 
-                <!-- Stats -->
                 <div class="reveal d5 stats-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 60px;">
                     <div class="stat-card">
-                        <div style="font-size: 28px; font-weight: 700; color: #fafafa;">10+</div>
-                        <div style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;">Years Exp.</div>
+                        <div style="font-size: 28px; font-weight: 700; color: var(--text-primary);">10+</div>
+                        <div style="font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;">Years Exp.</div>
                     </div>
                     <div class="stat-card">
-                        <div style="font-size: 28px; font-weight: 700; color: #fafafa;">4.3K</div>
-                        <div style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;">Project Views</div>
+                        <div style="font-size: 28px; font-weight: 700; color: var(--text-primary);">4.3K</div>
+                        <div style="font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;">Project Views</div>
                     </div>
                     <div class="stat-card">
-                        <div style="font-size: 28px; font-weight: 700; color: #fafafa;">110+</div>
-                        <div style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;">Appreciations</div>
+                        <div style="font-size: 28px; font-weight: 700; color: var(--text-primary);">110+</div>
+                        <div style="font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;">Appreciations</div>
                     </div>
                     <div class="stat-card">
-                        <div style="font-size: 28px; font-weight: 700; color: #fafafa;">50+</div>
-                        <div style="font-size: 11px; color: #525252; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;">Projects</div>
+                        <div style="font-size: 28px; font-weight: 700; color: var(--text-primary);">50+</div>
+                        <div style="font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;">Projects</div>
                     </div>
                 </div>
             </div>
@@ -100,13 +95,13 @@
             <div class="reveal-left d1"><h2 class="section-title">About Me</h2></div>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start;" class="about-2col">
                 <div class="reveal-left d2">
-                    <p style="font-size: 15px; color: #a3a3a3; line-height: 1.8; margin-bottom: 20px;">
+                    <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px;">
                         I'm a <span style="color: var(--accent);">Senior Graphic Designer</span> based in Cairo, Egypt, with over 10 years of professional experience in visual design, branding, and print media. I've been working at ICONS Integrated Solution since 2014.
                     </p>
-                    <p style="font-size: 15px; color: #a3a3a3; line-height: 1.8; margin-bottom: 20px;">
+                    <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px;">
                         My work spans across social media design, corporate branding, annual reports, brochures, mobile app UI, and large-scale campaign visuals. I specialize in both Arabic and English typography, delivering designs that resonate with diverse audiences.
                     </p>
-                    <p style="font-size: 15px; color: #a3a3a3; line-height: 1.8; margin-bottom: 32px;">
+                    <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 32px;">
                         I believe great design is not just about aesthetics — it's about communication. Every pixel, every color choice, and every layout decision serves a purpose in telling your brand's story.
                     </p>
                     <div style="display: flex; gap: 12px; flex-wrap: wrap;">
@@ -115,14 +110,14 @@
                     </div>
                 </div>
                 <div class="reveal-right d3">
-                    <div style="background: #111111; border: 1px solid rgba(255,255,255,0.06); border-radius: 16px; padding: 28px;">
-                        <h3 style="font-size: 15px; font-weight: 600; color: #fafafa; margin-bottom: 20px;">Personal Info</h3>
-                        <div class="info-item"><iconify-icon icon="lucide:user"></iconify-icon><span><span style="color: #525252;">Name:</span> Rashad Mansour</span></div>
-                        <div class="info-item"><iconify-icon icon="lucide:map-pin"></iconify-icon><span><span style="color: #525252;">Location:</span> Cairo, Egypt</span></div>
-                        <div class="info-item"><iconify-icon icon="lucide:briefcase"></iconify-icon><span><span style="color: #525252;">Role:</span> Senior Graphic Designer</span></div>
-                        <div class="info-item"><iconify-icon icon="lucide:building-2"></iconify-icon><span><span style="color: #525252;">Company:</span> ICONS Integrated Solution</span></div>
-                        <div class="info-item"><iconify-icon icon="lucide:calendar"></iconify-icon><span><span style="color: #525252;">Experience:</span> 10+ Years (Since 2014)</span></div>
-                        <div class="info-item"><iconify-icon icon="lucide:languages"></iconify-icon><span><span style="color: #525252;">Languages:</span> Arabic (Native), English</span></div>
+                    <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 28px;">
+                        <h3 style="font-size: 15px; font-weight: 600; color: var(--text-primary); margin-bottom: 20px;">Personal Info</h3>
+                        <div class="info-item"><iconify-icon icon="lucide:user"></iconify-icon><span><span style="color: var(--text-dim);">Name:</span> Rashad Mansour</span></div>
+                        <div class="info-item"><iconify-icon icon="lucide:map-pin"></iconify-icon><span><span style="color: var(--text-dim);">Location:</span> Cairo, Egypt</span></div>
+                        <div class="info-item"><iconify-icon icon="lucide:briefcase"></iconify-icon><span><span style="color: var(--text-dim);">Role:</span> Senior Graphic Designer</span></div>
+                        <div class="info-item"><iconify-icon icon="lucide:building-2"></iconify-icon><span><span style="color: var(--text-dim);">Company:</span> ICONS Integrated Solution</span></div>
+                        <div class="info-item"><iconify-icon icon="lucide:calendar"></iconify-icon><span><span style="color: var(--text-dim);">Experience:</span> 10+ Years (Since 2014)</span></div>
+                        <div class="info-item"><iconify-icon icon="lucide:languages"></iconify-icon><span><span style="color: var(--text-dim);">Languages:</span> Arabic (Native), English</span></div>
                     </div>
                 </div>
             </div>
@@ -138,8 +133,8 @@
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 56px;" class="skills-2col">
                 <div class="skill-card reveal-left d2">
                     <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 22px;">
-                        <div style="width: 38px; height: 38px; border-radius: 10px; background: var(--accent-soft); display: flex; align-items: center; justify-content: center;"><iconify-icon icon="lucide:pen-tool" width="19" style="color: var(--accent);"></iconify-icon></div>
-                        <h3 style="font-size: 16px; font-weight: 600; color: #fafafa;">Design Software</h3>
+                        <div class="icon-box"><iconify-icon icon="lucide:pen-tool" width="19"></iconify-icon></div>
+                        <h3 style="font-size: 16px; font-weight: 600; color: var(--text-primary);">Design Software</h3>
                     </div>
                     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
                         <span class="skill-tag"><iconify-icon icon="simple-icons:adobephotoshop"></iconify-icon> Photoshop</span>
@@ -153,8 +148,8 @@
 
                 <div class="skill-card reveal-right d3">
                     <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 22px;">
-                        <div style="width: 38px; height: 38px; border-radius: 10px; background: var(--accent-soft); display: flex; align-items: center; justify-content: center;"><iconify-icon icon="lucide:layout-grid"></iconify-icon></div>
-                        <h3 style="font-size: 16px; font-weight: 600; color: #fafafa;">Design Specialties</h3>
+                        <div class="icon-box"><iconify-icon icon="lucide:layout-grid" width="19"></iconify-icon></div>
+                        <h3 style="font-size: 16px; font-weight: 600; color: var(--text-primary);">Design Specialties</h3>
                     </div>
                     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
                         <span class="skill-tag"><iconify-icon icon="lucide:palette"></iconify-icon> Branding</span>
@@ -168,8 +163,8 @@
 
                 <div class="skill-card reveal-left d4">
                     <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 22px;">
-                        <div style="width: 38px; height: 38px; border-radius: 10px; background: var(--accent-soft); display: flex; align-items: center; justify-content: center;"><iconify-icon icon="lucide:file-text"></iconify-icon></div>
-                        <h3 style="font-size: 16px; font-weight: 600; color: #fafafa;">Collateral Design</h3>
+                        <div class="icon-box"><iconify-icon icon="lucide:file-text" width="19"></iconify-icon></div>
+                        <h3 style="font-size: 16px; font-weight: 600; color: var(--text-primary);">Collateral Design</h3>
                     </div>
                     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
                         <span class="skill-tag"><iconify-icon icon="lucide:book-open"></iconify-icon> Brochures</span>
@@ -183,8 +178,8 @@
 
                 <div class="skill-card reveal-right d5">
                     <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 22px;">
-                        <div style="width: 38px; height: 38px; border-radius: 10px; background: var(--accent-soft); display: flex; align-items: center; justify-content: center;"><iconify-icon icon="lucide:heart-handshake"></iconify-icon></div>
-                        <h3 style="font-size: 16px; font-weight: 600; color: #fafafa;">Soft Skills</h3>
+                        <div class="icon-box"><iconify-icon icon="lucide:heart-handshake" width="19"></iconify-icon></div>
+                        <h3 style="font-size: 16px; font-weight: 600; color: var(--text-primary);">Soft Skills</h3>
                     </div>
                     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
                         <span class="skill-tag"><iconify-icon icon="lucide:lightbulb"></iconify-icon> Creativity</span>
@@ -197,41 +192,40 @@
                 </div>
             </div>
 
-            <!-- Proficiency -->
             <div class="reveal-scale d2">
-                <h3 style="font-size: 18px; font-weight: 600; color: #fafafa; margin-bottom: 28px;">Proficiency</h3>
+                <h3 style="font-size: 18px; font-weight: 600; color: var(--text-primary); margin-bottom: 28px;">Proficiency</h3>
                 <div style="display: grid; gap: 24px; max-width: 650px;">
                     <div>
                         <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
-                            <span style="font-size: 13px; font-weight: 500; color: #a3a3a3; display: flex; align-items: center; gap: 8px;"><iconify-icon icon="simple-icons:adobephotoshop" style="color: var(--accent); font-size: 16px;"></iconify-icon> Adobe Photoshop</span>
+                            <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary); display: flex; align-items: center; gap: 8px;"><iconify-icon icon="simple-icons:adobephotoshop" style="color: var(--accent); font-size: 16px;"></iconify-icon> Adobe Photoshop</span>
                             <span style="font-size: 13px; font-weight: 600; color: var(--accent);">95%</span>
                         </div>
                         <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="95"></div></div>
                     </div>
                     <div>
                         <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
-                            <span style="font-size: 13px; font-weight: 500; color: #a3a3a3; display: flex; align-items: center; gap: 8px;"><iconify-icon icon="simple-icons:adobeillustrator" style="color: var(--accent); font-size: 16px;"></iconify-icon> Adobe Illustrator</span>
+                            <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary); display: flex; align-items: center; gap: 8px;"><iconify-icon icon="simple-icons:adobeillustrator" style="color: var(--accent); font-size: 16px;"></iconify-icon> Adobe Illustrator</span>
                             <span style="font-size: 13px; font-weight: 600; color: var(--accent);">92%</span>
                         </div>
                         <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="92"></div></div>
                     </div>
                     <div>
                         <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
-                            <span style="font-size: 13px; font-weight: 500; color: #a3a3a3; display: flex; align-items: center; gap: 8px;"><iconify-icon icon="simple-icons:adobeindesign" style="color: var(--accent); font-size: 16px;"></iconify-icon> Adobe InDesign</span>
+                            <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary); display: flex; align-items: center; gap: 8px;"><iconify-icon icon="simple-icons:adobeindesign" style="color: var(--accent); font-size: 16px;"></iconify-icon> Adobe InDesign</span>
                             <span style="font-size: 13px; font-weight: 600; color: var(--accent);">90%</span>
                         </div>
                         <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="90"></div></div>
                     </div>
                     <div>
                         <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
-                            <span style="font-size: 13px; font-weight: 500; color: #a3a3a3; display: flex; align-items: center; gap: 8px;"><iconify-icon icon="lucide:palette" style="color: var(--accent); font-size: 16px;"></iconify-icon> Branding & Visual Identity</span>
+                            <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary); display: flex; align-items: center; gap: 8px;"><iconify-icon icon="lucide:palette" style="color: var(--accent); font-size: 16px;"></iconify-icon> Branding & Visual Identity</span>
                             <span style="font-size: 13px; font-weight: 600; color: var(--accent);">93%</span>
                         </div>
                         <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="93"></div></div>
                     </div>
                     <div>
                         <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
-                            <span style="font-size: 13px; font-weight: 500; color: #a3a3a3; display: flex; align-items: center; gap: 8px;"><iconify-icon icon="simple-icons:figma" style="color: var(--accent); font-size: 16px;"></iconify-icon> UI/UX & Figma</span>
+                            <span style="font-size: 13px; font-weight: 500; color: var(--text-secondary); display: flex; align-items: center; gap: 8px;"><iconify-icon icon="simple-icons:figma" style="color: var(--accent); font-size: 16px;"></iconify-icon> UI/UX & Figma</span>
                             <span style="font-size: 13px; font-weight: 600; color: var(--accent);">80%</span>
                         </div>
                         <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80"></div></div>
@@ -249,27 +243,27 @@
             <div style="max-width: 700px;">
                 <div class="timeline-item reveal-left d2">
                     <div style="display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
-                        <h3 style="font-size: 17px; font-weight: 600; color: #fafafa;">Senior Graphic Designer</h3>
+                        <h3 style="font-size: 17px; font-weight: 600; color: var(--text-primary);">Senior Graphic Designer</h3>
                         <span class="tech-pill">2014 – Present</span>
                     </div>
                     <p style="font-size: 14px; color: var(--accent); font-weight: 500; margin-bottom: 8px;">ICONS Integrated Solution — Cairo, Egypt</p>
-                    <p style="font-size: 14px; color: #737373; line-height: 1.7;">Leading visual design projects for major clients, including corporate branding, annual reports, social media campaigns, brochures, and mobile app UI. Managing end-to-end design workflows from concept to final delivery.</p>
+                    <p style="font-size: 14px; color: var(--text-muted); line-height: 1.7;">Leading visual design projects for major clients, including corporate branding, annual reports, social media campaigns, brochures, and mobile app UI. Managing end-to-end design workflows from concept to final delivery.</p>
                 </div>
                 <div class="timeline-item reveal-left d3">
                     <div style="display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
-                        <h3 style="font-size: 17px; font-weight: 600; color: #fafafa;">Freelance Graphic Designer</h3>
+                        <h3 style="font-size: 17px; font-weight: 600; color: var(--text-primary);">Freelance Graphic Designer</h3>
                         <span class="tech-pill">2010 – 2014</span>
                     </div>
                     <p style="font-size: 14px; color: var(--accent); font-weight: 500; margin-bottom: 8px;">Self-Employed — Cairo, Egypt</p>
-                    <p style="font-size: 14px; color: #737373; line-height: 1.7;">Worked with various clients on branding, print design, and digital media projects. Built a strong foundation in visual communication and client relationship management.</p>
+                    <p style="font-size: 14px; color: var(--text-muted); line-height: 1.7;">Worked with various clients on branding, print design, and digital media projects. Built a strong foundation in visual communication and client relationship management.</p>
                 </div>
                 <div class="timeline-item reveal-left d4">
                     <div style="display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
-                        <h3 style="font-size: 17px; font-weight: 600; color: #fafafa;">Behance Member</h3>
+                        <h3 style="font-size: 17px; font-weight: 600; color: var(--text-primary);">Behance Member</h3>
                         <span class="tech-pill">Since Aug 2015</span>
                     </div>
                     <p style="font-size: 14px; color: var(--accent); font-weight: 500; margin-bottom: 8px;">Online Portfolio — behance.net/r1mansour8a9b3</p>
-                    <p style="font-size: 14px; color: #737373; line-height: 1.7;">Showcasing selected works including 4,328+ project views and 110+ appreciations from the global design community.</p>
+                    <p style="font-size: 14px; color: var(--text-muted); line-height: 1.7;">Showcasing selected works including 4,328+ project views and 110+ appreciations from the global design community.</p>
                 </div>
             </div>
         </section>
@@ -282,67 +276,59 @@
             <div class="reveal d1"><h2 class="section-title">Featured Projects</h2></div>
 
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;" class="projects-2col">
-                <!-- Project 1 -->
                 <div class="project-card reveal-rotate d2">
                     <div class="project-img">
-                        <img src="imgs/social%20media.png" alt="Social Media Posts">
+                        <img src="imgs/social media.png" alt="Social Media Posts">
                         <div class="project-img-overlay"></div>
                     </div>
                     <div class="project-body">
-                        <h3 style="font-size: 18px; font-weight: 600; color: #fafafa; margin-bottom: 8px;">Social Media Posts</h3>
-                        <p style="font-size: 13px; color: #737373; line-height: 1.7; margin-bottom: 16px;">Creative social media post designs for various brands including agricultural themes, promotional content, and campaign visuals with strong visual impact.</p>
+                        <h3 style="font-size: 18px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px;"><a href="https://www.behance.net/gallery/213471097/Social-Media-Designs" target="_blank" style="color: inherit; text-decoration: none;">Social Media Posts</a></h3>
+                        <p style="font-size: 13px; color: var(--text-muted); line-height: 1.7; margin-bottom: 16px;">Creative social media post designs for various brands including agricultural themes, promotional content, and campaign visuals with strong visual impact.</p>
                         <div style="display: flex; flex-wrap: wrap; gap: 6px;">
                             <span class="tech-pill">Photoshop</span><span class="tech-pill">Illustrator</span><span class="tech-pill">Social Media</span>
                         </div>
-                        <a href="https://www.behance.net/gallery/213471097/Social-Media-Designs" target="_blank" rel="noreferrer noopener" class="btn-outline" style="margin-top: 16px; display: inline-flex;">View Project</a>
                     </div>
                 </div>
 
-                <!-- Project 2 -->
                 <div class="project-card reveal-rotate d3">
                     <div class="project-img">
-                        <img src="imgs/annual%20report.png" alt="Business Brochure & Reports">
+                        <img src="imgs/brochure.png" alt="Business Brochure & Reports">
                         <div class="project-img-overlay"></div>
                     </div>
                     <div class="project-body">
-                        <h3 style="font-size: 18px; font-weight: 600; color: #fafafa; margin-bottom: 8px;">Business Brochure & Reports</h3>
-                        <p style="font-size: 13px; color: #737373; line-height: 1.7; margin-bottom: 16px;">Professional business brochures and annual report designs including the 2022 Final Report and Vision 2030 report with elegant corporate styling.</p>
+                        <h3 style="font-size: 18px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px;"><a href="https://www.behance.net/gallery/178550747/brochure" target="_blank" style="color: inherit; text-decoration: none;">Business Brochure & Reports</a></h3>
+                        <p style="font-size: 13px; color: var(--text-muted); line-height: 1.7; margin-bottom: 16px;">Professional business brochures and annual report designs including the 2022 Final Report and Vision 2030 report with elegant corporate styling.</p>
                         <div style="display: flex; flex-wrap: wrap; gap: 6px;">
                             <span class="tech-pill">InDesign</span><span class="tech-pill">Illustrator</span><span class="tech-pill">Print Design</span>
                         </div>
-                        <a href="https://www.behance.net/gallery/238213053/_" target="_blank" rel="noreferrer noopener" class="btn-outline" style="margin-top: 16px; display: inline-flex;">View Project</a>
                     </div>
                 </div>
 
-                <!-- Project 3 -->
                 <div class="project-card reveal-rotate d4">
                     <div class="project-img">
-                        <img src="imgs/brochure.png" alt="Voall — Digital Islamic Tourism">
+                        <img src="imgs/Brand Identity.png" alt="Brand Identity">
                         <div class="project-img-overlay"></div>
                     </div>
                     <div class="project-body">
-                        <h3 style="font-size: 18px; font-weight: 600; color: #fafafa; margin-bottom: 8px;">Voall — Digital Islamic Tourism</h3>
-                        <p style="font-size: 13px; color: #737373; line-height: 1.7; margin-bottom: 16px;">Mobile app UI/UX design for a digital Islamic tourism platform, creating an intuitive and culturally resonant user experience with modern design principles.</p>
-                        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-                            <span class="tech-pill">Figma</span><span class="tech-pill">UI/UX</span><span class="tech-pill">Mobile Design</span>
-                        </div>
-                        <a href="https://www.behance.net/gallery/178550747/brochure" target="_blank" rel="noreferrer noopener" class="btn-outline" style="margin-top: 16px; display: inline-flex;">View Project</a>
-                    </div>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="project-card reveal-rotate d5">
-                    <div class="project-img">
-                        <img src="imgs/Brand%20Identity.png" alt="Agricultural Brand Identity">
-                        <div class="project-img-overlay"></div>
-                    </div>
-                    <div class="project-body">
-                        <h3 style="font-size: 18px; font-weight: 600; color: #fafafa; margin-bottom: 8px;">Agricultural Brand Identity</h3>
-                        <p style="font-size: 13px; color: #737373; line-height: 1.7; margin-bottom: 16px;">Complete brand identity design for an agricultural company, including logo, color system, typography, packaging, and marketing collateral with a nature-inspired green palette.</p>
+                        <h3 style="font-size: 18px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px;"><a href="https://www.behance.net/gallery/199828371/OrgaValle" target="_blank" style="color: inherit; text-decoration: none;">Identity — OrgaValle</a></h3>
+                        <p style="font-size: 13px; color: var(--text-muted); line-height: 1.7; margin-bottom: 16px;">Complete brand identity project including logo, color system, typography, packaging, and marketing collateral.</p>
                         <div style="display: flex; flex-wrap: wrap; gap: 6px;">
                             <span class="tech-pill">Branding</span><span class="tech-pill">Illustrator</span><span class="tech-pill">Packaging</span>
                         </div>
-                        <a href="https://www.behance.net/gallery/199828371/OrgaValle" target="_blank" rel="noreferrer noopener" class="btn-outline" style="margin-top: 16px; display: inline-flex;">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-rotate d5">
+                    <div class="project-img">
+                        <img src="imgs/annual report.png" alt="Annual Report">
+                        <div class="project-img-overlay"></div>
+                    </div>
+                    <div class="project-body">
+                        <h3 style="font-size: 18px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px;"><a href="https://www.behance.net/gallery/238213053/_" target="_blank" style="color: inherit; text-decoration: none;">Annual Report</a></h3>
+                        <p style="font-size: 13px; color: var(--text-muted); line-height: 1.7; margin-bottom: 16px;">Annual report and corporate report design with refined layouts and typography for clear communication.</p>
+                        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+                            <span class="tech-pill">InDesign</span><span class="tech-pill">Layout</span><span class="tech-pill">Print</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -356,56 +342,55 @@
             <div class="reveal-right d1"><h2 class="section-title">Get in Touch</h2></div>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start;" class="contact-2col">
                 <div class="reveal-left d2">
-                    <p style="font-size: 15px; color: #a3a3a3; line-height: 1.8; margin-bottom: 32px;">
+                    <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 32px;">
                         Looking for a creative partner to bring your brand vision to life? I'm available for freelance projects, full-time roles, and creative collaborations. Let's create something amazing together.
                     </p>
                     <div style="display: flex; flex-direction: column; gap: 20px;">
-                        <a href="https://www.behance.net/r1mansour8a9b3" target="_blank" style="display: flex; align-items: center; gap: 16px; text-decoration: none; padding: 16px 20px; background: #111; border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; transition: all 0.3s ease;" onmouseover="this.style.borderColor='rgba(96,165,250,0.2)';this.style.transform='translateX(4px)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.06)';this.style.transform='none'">
-                            <div style="width: 44px; height: 44px; border-radius: 10px; background: var(--accent-soft); display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><iconify-icon icon="simple-icons:behance" width="20" style="color: var(--accent);"></iconify-icon></div>
-                            <div><div style="font-size: 12px; color: #525252; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 2px;">Behance</div><div style="font-size: 14px; color: #e5e5e5;">behance.net/r1mansour8a9b3</div></div>
+                        <a href="https://www.behance.net/r1mansour8a9b3" target="_blank" class="contact-card">
+                            <div class="contact-icon"><iconify-icon icon="simple-icons:behance" width="20"></iconify-icon></div>
+                            <div><div style="font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 2px;">Behance</div><div style="font-size: 14px; color: var(--text-primary);">behance.net/r1mansour8a9b3</div></div>
                         </a>
-                        <div style="display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: #111; border: 1px solid rgba(255,255,255,0.06); border-radius: 12px;">
-                            <div style="width: 44px; height: 44px; border-radius: 10px; background: var(--accent-soft); display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><iconify-icon icon="lucide:map-pin" width="20" style="color: var(--accent);"></iconify-icon></div>
-                            <div><div style="font-size: 12px; color: #525252; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 2px;">Location</div><div style="font-size: 14px; color: #e5e5e5;">Cairo, Egypt</div></div>
+                        <div class="contact-card">
+                            <div class="contact-icon"><iconify-icon icon="lucide:map-pin" width="20"></iconify-icon></div>
+                            <div><div style="font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 2px;">Location</div><div style="font-size: 14px; color: var(--text-primary);">Cairo, Egypt</div></div>
                         </div>
-                        <div style="display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: #111; border: 1px solid rgba(255,255,255,0.06); border-radius: 12px;">
-                            <div style="width: 44px; height: 44px; border-radius: 10px; background: var(--accent-soft); display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><iconify-icon icon="lucide:briefcase" width="20" style="color: var(--accent);"></iconify-icon></div>
-                            <div><div style="font-size: 12px; color: #525252; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 2px;">Availability</div><div style="font-size: 14px; color: var(--accent);">Open for freelance & full-time</div></div>
+                        <div class="contact-card">
+                            <div class="contact-icon"><iconify-icon icon="lucide:briefcase" width="20"></iconify-icon></div>
+                            <div><div style="font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 2px;">Availability</div><div style="font-size: 14px; color: var(--accent);">Open for freelance & full-time</div></div>
                         </div>
                     </div>
                     <div style="margin-top: 28px;">
-                        <p style="font-size: 13px; color: #525252; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.1em;">Find me on</p>
+                        <p style="font-size: 13px; color: var(--text-dim); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.1em;">Find me on</p>
                         <div style="display: flex; gap: 10px;">
                             <a href="https://www.behance.net/r1mansour8a9b3" target="_blank" class="social-link"><iconify-icon icon="simple-icons:behance" width="20"></iconify-icon></a>
-                            <a href="#" class="social-link"><iconify-icon icon="mdi:linkedin" width="20"></iconify-icon></a>
-                            <a href="#" class="social-link"><iconify-icon icon="mdi:instagram" width="20"></iconify-icon></a>
+                            <a href="mailto:r1mansour89@gmail.com" class="social-link"><iconify-icon icon="lucide:mail" width="20"></iconify-icon></a>
                         </div>
                     </div>
                 </div>
                 <div class="reveal-right d3">
-                    <form id="contactForm" style="background: #111111; border: 1px solid rgba(255,255,255,0.06); border-radius: 16px; padding: 32px;">
+                    <form id="contactForm" style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 32px;">
                         <div style="display: grid; gap: 18px;">
                             <div>
-                                <label style="font-size: 12px; font-weight: 600; color: #737373; text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 8px;">Your Name</label>
+                                <label style="font-size: 12px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 8px;">Your Name</label>
                                 <input type="text" class="form-input" placeholder="John Doe" required>
                             </div>
                             <div>
-                                <label style="font-size: 12px; font-weight: 600; color: #737373; text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 8px;">Your Email</label>
+                                <label style="font-size: 12px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 8px;">Your Email</label>
                                 <input type="email" class="form-input" placeholder="john@example.com" required>
                             </div>
                             <div>
-                                <label style="font-size: 12px; font-weight: 600; color: #737373; text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 8px;">Subject</label>
+                                <label style="font-size: 12px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 8px;">Subject</label>
                                 <input type="text" class="form-input" placeholder="Design project inquiry" required>
                             </div>
                             <div>
-                                <label style="font-size: 12px; font-weight: 600; color: #737373; text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 8px;">Message</label>
+                                <label style="font-size: 12px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 8px;">Message</label>
                                 <textarea class="form-input" rows="5" placeholder="Tell me about your project..." style="resize: vertical; min-height: 120px;" required></textarea>
                             </div>
                             <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 4px;">
                                 <iconify-icon icon="lucide:send" width="16"></iconify-icon> Send Message
                             </button>
                         </div>
-                        <div id="formSuccess" style="display: none; margin-top: 16px; padding: 14px 18px; background: rgba(96,165,250,0.08); border: 1px solid rgba(96,165,250,0.2); border-radius: 10px; text-align: center;">
+                        <div id="formSuccess" style="display: none; margin-top: 16px; padding: 14px 18px; background: rgba(196,168,130,0.08); border: 1px solid rgba(196,168,130,0.2); border-radius: 10px; text-align: center;">
                             <span style="color: var(--accent); font-size: 14px; font-weight: 500;"><iconify-icon icon="lucide:check-circle" width="16" style="vertical-align: -2px; margin-right: 4px;"></iconify-icon>Message sent successfully! I'll get back to you soon.</span>
                         </div>
                     </form>
@@ -413,9 +398,9 @@
             </div>
         </section>
 
-        <footer style="border-top: 1px solid rgba(255,255,255,0.06); padding: 28px 60px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
-            <p style="font-size: 13px; color: #525252;">© 2025 Rashad Mansour. All rights reserved.</p>
-            <p style="font-size: 13px; color: #333;">Designed & Built with <span style="color: var(--accent);">♥</span></p>
+        <footer style="border-top: 1px solid var(--border); padding: 28px 60px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+            <p style="font-size: 13px; color: var(--text-dim);">© 2025 Rashad Mansour. All rights reserved.</p>
+            <p style="font-size: 13px; color: var(--text-dim);">Designed & Built with <span style="color: var(--accent);">♥</span></p>
         </footer>
     </main>
 
